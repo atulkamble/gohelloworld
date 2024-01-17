@@ -25,7 +25,7 @@ OR
 notepad main.go
 ```
 // Add following code to main.gopackage main
-``
+```
 import "fmt"
 
 func main() {

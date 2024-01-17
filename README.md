@@ -12,6 +12,7 @@ Containerise Go Hello World App
 go vesion
 go help
 ```
+// (Optional)
 ```
 cd D:/Project
 mkdir goproject

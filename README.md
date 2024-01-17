@@ -55,7 +55,7 @@ docker images
 ```
 // run docker image
 ```
-docker run atuljkamble/gohelloworld
+docker run atuljkamble/gohelloworld:latest
 ```
 
 // Push Image to docker hub

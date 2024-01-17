@@ -6,7 +6,7 @@ docker run atuljkamble/gohelloworld:latest
 ```
 
 Tip: Replace myusername with your dockerhub username
-// Clone
+// Clone Repository
 ```
 git clone https://github.com/atulkamble/GoHelloWorld.git
 cd GoHelloWorld

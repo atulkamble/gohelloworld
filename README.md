@@ -1,7 +1,8 @@
 # GoHelloWorld
-Pull Public Docker Image: 
+Pull and Run Public Docker Image: 
 ```
 docker pull atuljkamble/gohelloworld
+docker run atuljkamble/gohelloworld:latest
 ```
 
 Tip: Replace myusername with your dockerhub username

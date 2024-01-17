@@ -1,5 +1,10 @@
 # GoHelloWorld
-Tip: Replace myusername with dockerhub username
+Pull Public Docker Image: 
+```
+docker pull atuljkamble/gohelloworld
+```
+
+Tip: Replace myusername with your dockerhub username
 // Clone
 ```
 git clone https://github.com/atulkamble/GoHelloWorld.git

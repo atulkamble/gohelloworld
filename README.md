@@ -5,7 +5,7 @@ docker pull atuljkamble/gohelloworld
 docker run atuljkamble/gohelloworld:latest
 ```
 
-Tip: Replace myusername with your dockerhub username
+// Tip: Replace myusername with your dockerhub username
 // Clone Repository
 ```
 git clone https://github.com/atulkamble/GoHelloWorld.git

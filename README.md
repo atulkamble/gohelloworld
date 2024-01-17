@@ -9,7 +9,7 @@ cd GoHelloWorld
 Containerise Go Hello World App
 // Goto Official Golang | Download | Install https://go.dev/
 ```
-go vesion
+go version
 go help
 ```
 // (Optional)

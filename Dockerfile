@@ -1,12 +1,23 @@
-FROM golang:1.21.6
+# Use official Golang image as build stage
+FROM golang:1.22-alpine AS builder
+
+# Set working directory inside container
 WORKDIR /app
 
-COPY go.mod ./
-RUN go mod download
+# Copy Go source file
+COPY helloworld.go .
 
-COPY *.go ./
+# Build the Go binary
+RUN go build -o helloworld helloworld.go
 
-RUN go build -o /go-demo
-EXPOSE 8080
+# Use minimal base image for final container
+FROM alpine:latest
 
-CMD [ "/go-demo" ]
+# Set working directory
+WORKDIR /root/
+
+# Copy the binary from builder stage
+COPY --from=builder /app/helloworld .
+
+# Command to run the binary
+CMD ["./helloworld"]
